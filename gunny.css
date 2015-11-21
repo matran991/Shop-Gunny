@@ -45,3 +45,11 @@
 .wrap_alert {position: absolute;top: 50%;display: inline-block;float: none;background: white;z-index: 9999;width: initial;padding: 10px;color: red;font-weight: bold;font-size: 20px;left: 35%;}
 .gold_user span {color: darkmagenta;font-weight: bold;}
 .wrap_alert i {font-size: 40px;vertical-align: middle;margin-right: 10px;}
+#shop_gt {margin: 10px 0;background: #F8F8F8}
+.gt_text {font-weight: bold;font-size: 20px}
+.gt_nam {margin-right: 50px;color: darkblue}
+.gt_nu {color: #FB00E5}
+.gt_btt:before {content: "\f096";font-family: FontAwesome;margin-right: 10px;font-size: 20px;vertical-align: middle;color: darkturquoise;font-weight: 100}
+.gt_btt.active:before {content: "\f046";color: darkred}
+.gt_btt {font-weight: bold;padding: 5px;cursor: pointer}
+.tab_Nu{display: none}
