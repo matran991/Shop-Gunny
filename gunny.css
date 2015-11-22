@@ -1,0 +1,55 @@
+.item_shop {display: inline-block;width: initial;text-align: center}
+.block_shop {padding: 10px 0px 10px 0px;background: #5C3822;text-align: center;border-radius: 12px;min-height: 496px;min-width: 610px;}
+.item_shop {cursor: pointer;background: #ffffff;background: -moz-linear-gradient(top, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#f3f3f3), color-stop(51%,#ededed), color-stop(100%,#ffffff));background: -webkit-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);background: -o-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);background: -ms-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);background: linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );padding: 3px;margin: 2px;border: 1px solid #CCC;border-radius: 4px;width: 94px;float: none}
+.number_page {display: inline-block;width: initial;padding: 4px 10px;margin-right: 10px;cursor: pointer;border: solid 1px #80ACD9;border-radius: 3px;float: none}
+.table_page {margin-top: 20px;text-align: center;padding: 5px 0;background: #FCFCFC;}
+#body_shop {background: #AD5C1A url(http://img.union.zing.vn/clientscripts/image/gunny/bgcontent.gif) repeat-y;overflow: hidden;position: relative;padding: 10px 0;border-radius: 16px;margin: 10px auto;float: none;}
+#shop_right {display: inline-block;width: 72%;float: right;padding-right: 4%}
+#shop_left {display: inline-block;width: initial;text-align: center;width: 28%;padding: 10px}
+.number_page.active {cursor: no-drop;background: #09F;      color: #FFF;}
+.tab_item {display: inline-block;width: initial;float: none;font-weight: bold;min-width: 70px;padding: 5px 0;background: #79331C;cursor: pointer;color: #FFFA9E;border-radius: 3px 3px 0 0;box-shadow: 3px 3px 3px #4E1806;font-size: 12px;}
+#tab_shop {text-align: center;margin-bottom: 4px}
+.img_shop img {width: 78px;height: 78px}
+#shop_avata {border: 5px solid #CE7F3E;box-shadow: 0 0 0 3px hsl(27, 69%, 34%)}
+#shop_center {margin-bottom: 10px}
+#shop_left h1 {float: none;color: #E8E6CD;}
+#avata {width: 300px;height: 200px;position: relative;text-align: center;left: -25px}
+.item {position: absolute;bottom: 0;left: 0;right: 0}
+#Mat {width: 90px;overflow: hidden;z-index: 3;left: 97px;top: 79px}
+#Toc {z-index: 4}
+#Non {z-index: 5}
+#Kinh {z-index: 8;}
+#Ts {z-index: 7}
+#Ao {z-index: 6}
+#Canh {left: -3px;top: 20px;;z-index: 2}
+#Vong {left: -10px;z-index: 1}
+#Vk {top: -80px;left: 20px;z-index: 2;}
+.item.set8,.item.set6,.item.set7,.item.set5,.item.set10,.item.set22,.item.set23 {top: -20px!important}
+#avata_preview {background: #E6E4CB;overflow: hidden;border: 5px solid #5C3822;border-radius: 3px;box-shadow: 0 0 0 5px hsl(27, 60%, 53%)}
+#profile_user {background: #F8F8F8;border-radius: 10px 10px 0 0;border: 2px solid #5C3822;margin-bottom: 7px}
+#total_shop {margin-top: 20px}
+#alert_total {color: red}
+.sell_gold:before {content: "Giá: ";color: black}
+.sell_gold {background: #FBE92A;border: 1px solid #5C3822;border-radius: 3px 3px 0 0;margin-top: 2px;color: red;font-weight: bold}
+.item_shop.active {background: rgb(255, 255, 118)}
+.tab_item.active {background: #CB7220;color: #471D00;}
+#total_shop h2 {color: darkcyan;}
+#copy_shop {color: white;position: absolute;left: 9px;bottom: 10px;width: 28%}
+#copy_shop a {color: chartreuse;font-weight: bold;}
+.total_info {background: #FCFCFC;padding: 5px;opacity: 0}
+#total_buy {font-weight: bold;color: red;display: inline-block;float: none;width: initial;}
+#buy_all {opacity: 0;background: #CE7F3E;float: none;display: inline-block;width: initial;padding: 10px;border-radius: 10px;color: white;font-weight: bold;cursor: pointer;box-shadow: 3px 3px 3px #93511A;margin-top: 30px}
+#buy_all:hover {background: #5C3822}
+#total_alert,.wrap_fixed {position: absolute;top: 0;left: 0;right: 0;bottom: 0;text-align: center}
+.wrap_fixed {background: rgba(0, 0, 0, 0.38);z-index: 999;cursor: pointer}
+.wrap_alert {position: absolute;top: 50%;display: inline-block;float: none;background: white;z-index: 9999;width: initial;padding: 10px;color: red;font-weight: bold;font-size: 20px;left: 35%;}
+.gold_user span {color: darkmagenta;font-weight: bold;}
+.wrap_alert i {font-size: 40px;vertical-align: middle;margin-right: 10px;}
+#shop_gt {margin: 10px 0;background: #F8F8F8}
+.gt_text {font-weight: bold;font-size: 20px}
+.gt_nam {margin-right: 50px;color: darkblue}
+.gt_nu {color: #FB00E5}
+.gt_btt:before {content: "\f096";font-family: FontAwesome;margin-right: 10px;font-size: 20px;vertical-align: middle;color: darkturquoise;font-weight: 100}
+.gt_btt.active:before {content: "\f046";color: darkred}
+.gt_btt {font-weight: bold;padding: 5px;cursor: pointer}
+.tab_Nu{display: none}
