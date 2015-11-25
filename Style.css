@@ -22,7 +22,7 @@
 #Kinh {z-index: 8;}
 #Ts {z-index: 7}
 #Ao {z-index: 6}
-#Canh {left: 30px;top: 0;z-index: 2}
+#Canh {left: 70px;top: 0;z-index: 2}
 #Vong {left: 20px;z-index: 1;top: 30px;}
 #Vk {top: -80px;left: 20px;z-index: 2;}
 #avata_preview {background: #E6E4CB;overflow: hidden;border: 5px solid #5C3822;border-radius: 3px;box-shadow: 0 0 0 5px hsl(27, 60%, 53%)}
