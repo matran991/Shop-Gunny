@@ -1,0 +1,28 @@
+@-webkit-keyframes pet_play {
+   from { background-position:    0px; }
+     to { background-position: -320px; }
+}
+@-moz-keyframes pet_play {
+   from { background-position:    0px; }
+     to { background-position: -320px; }
+}
+@-ms-keyframes pet_play {
+   from { background-position:    0px; }
+     to { background-position: -320px; }
+}
+@-o-keyframes pet_play {
+   from { background-position:    0px; }
+     to { background-position: -320px; }
+}
+@keyframes pet_play {
+   from { background-position:    0px; }
+     to { background-position: -320px; }
+}
+#Canh,.canh_gunny {left: 64px;top: 0;z-index: 2;position: absolute;}
+#avata,.block_gunny {display: inline-block;width: 300px;height: 200px;position: relative;text-align: center;}
+#Gunny,.canvas_gunny {position: relative;z-index: 9;top: 35px;}
+.module_gunny {background-color: #ecf3f7;color: #536482;margin-bottom: 4px;overflow: hidden;padding: 0 10px;}
+.h3_gunny {border-bottom: 1px solid #0076b1;color: #0076b1;font-family: Verdana,Arial,Helvetica,sans-serif;font-size: 1.05em;margin-bottom: 3px;margin-top: 20px;padding-bottom: 2px;font-weight: bold;text-transform: uppercase;}
+.wrap_gunny {text-align: center;border-top: 2px solid;margin-top: 10px;}
+.body_gunny {margin-top: 10px;}
+.pet_animation {width: 80px;height: 100px;position: absolute;top: 100px;left: 70px;z-index: 4;-webkit-animation: pet_play 0.6s steps(4) infinite;-moz-animation: pet_play 0.6s steps(4) infinite;-ms-animation: pet_play 0.6s steps(4) infinite;-o-animation: pet_play 0.6s steps(4) infinite;animation: pet_play 0.6s steps(4) infinite;}
