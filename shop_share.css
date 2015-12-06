@@ -1,0 +1,73 @@
+.item_shop {display: inline-block;width: initial;text-align: center}
+.block_shop {padding: 10px 0px 10px 0px;background: #5C3822;text-align: center;border-radius: 12px;min-height: 496px;min-width: 610px;}
+.item_shop {cursor: pointer;background: #ffffff;background: -moz-linear-gradient(top, #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#f3f3f3), color-stop(51%,#ededed), color-stop(100%,#ffffff));background: -webkit-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);background: -o-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);background: -ms-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);background: linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );padding: 3px;margin: 2px;border: 1px solid #CCC;border-radius: 4px;width: 94px;float: none}
+.number_page {display: inline-block;width: initial;padding: 4px 10px;margin-right: 10px;cursor: pointer;border: solid 1px #80ACD9;border-radius: 3px;float: none}
+.number_page:hover {cursor: pointer!important;}
+.table_page {margin-top: 20px;text-align: center;padding: 5px 0;background: #FCFCFC;}
+#body_shop {background: #AD5C1A;overflow: hidden;position: relative;padding: 10px 0;border-radius: 16px;margin: 10px auto;float: none;border: 2px solid;            font-family: Arial,sans-serif;font-size: 14px;max-width: 1040px;min-width: 1040px;}
+#shop_right {display: inline-block;width: 680px;margin-right: 10px;}
+#shop_left {max-width: 310px;display: inline-block;width: initial;text-align: center;width: 32%;padding: 10px;float: left;margin-right: 10px;}
+.number_page.active,.number_page:hover {cursor: no-drop;background: #09F;      color: #FFF;}
+.tab_item {display: inline-block;width: initial;float: none;font-weight: bold;min-width: 70px;padding: 5px 0;background: #79331C;cursor: pointer;color: #FFFA9E;border-radius: 3px 3px 0 0;box-shadow: 3px 3px 3px #4E1806;font-size: 12px;}
+#tab_shop {text-align: center;margin-bottom: 4px}
+.img_shop img {width: 78px;height: 78px;}
+#shop_avata {border: 5px solid #CE7F3E;box-shadow: 0 0 0 3px hsl(27, 69%, 34%)}
+#shop_center {margin-bottom: 10px}
+#shop_left h1 {float: none;color: #E8E6CD;}
+#avata {width: 300px;height: 200px;position: relative;text-align: center;}
+.item {position: absolute;bottom: 0;left: 0;right: 0}
+#Mat {width: 90px;overflow: hidden;z-index: 3;left: 97px;top: 79px}
+#Toc {z-index: 4}
+#Non {z-index: 5}
+#Kinh {z-index: 8;}
+#Ts {z-index: 7}
+#Ao {z-index: 6}
+#Canh {left: 64px;top: 0;z-index: 2}
+#Vong {left: 20px;z-index: 1;top: 30px;}
+#Vk {top: -80px;left: 20px;z-index: 2;}
+#avata_preview {background: #E6E4CB;overflow: hidden;border: 5px solid #5C3822;border-radius: 3px;box-shadow: 0 0 0 5px hsl(27, 60%, 53%)}
+#profile_user {background: #F8F8F8;border-radius: 10px 10px 0 0;border: 2px solid #5C3822;margin-bottom: 7px}
+#total_shop {margin-top: 20px;min-height: 35px;}
+#alert_total {color: red}
+.sell_gold:before {content: "Giá: ";color: black}
+.sell_gold {background: #FBE92A;border: 1px solid #5C3822;border-radius: 3px 3px 0 0;margin-top: 2px;color: red;font-weight: bold}
+.item_shop.active {background: rgb(255, 255, 118)}
+.tab_item.active {background: #CB7220;color: #471D00;}
+#total_shop h2 {color: darkcyan;}
+#copy_shop {color: white;position: absolute;left: 9px;bottom: 10px;width: 28%}
+#copy_shop a {color: chartreuse;font-weight: bold;}
+.total_info {background: #FCFCFC;padding: 5px;opacity: 0}
+#total_buy {font-weight: bold;color: red;display: inline-block;float: none;width: initial;}
+#buy_all {opacity: 0;float: none;display: inline-block;width: initial;color: white;font-weight: bold;cursor: pointer;margin-top: 20px;background: darkcyan;padding: 5px 10px;border-radius: 7px;}
+#buy_all:hover {color: darkorange;}
+#total_alert,.wrap_fixed {position: absolute;top: 0;left: 0;right: 0;bottom: 0;text-align: center}
+.wrap_fixed {background: rgba(0, 0, 0, 0.38);z-index: 999;cursor: pointer;display: block;}
+.wrap_alert {position: absolute;top: 50%;display: inline-block;float: none;background: white;z-index: 9999;width: initial;padding: 10px;color: red;font-weight: bold;font-size: 20px;left: 35%;}
+.gold_user span {color: darkmagenta;font-weight: bold;}
+.wrap_alert i {font-size: 40px;vertical-align: middle;margin-right: 10px;}
+#shop_gt {margin: 10px 0;background: #F8F8F8}
+.gt_text {font-weight: bold;font-size: 20px}
+.gt_nam {margin-right: 50px;color: darkblue}
+.gt_nu {color: #FB00E5}
+.gt_btt:before {content: "\f096";font-family: FontAwesome;margin-right: 10px;font-size: 20px;vertical-align: middle;color: darkturquoise;font-weight: 100}
+.gt_btt.active:before {content: "\f046";color: darkred}
+.gt_btt {font-weight: bold;padding: 5px;cursor: pointer}
+.tab_Nu{display: none}
+.list-menu {display: none}
+#wrap_body {padding-left: 5px}
+.list-menu {display: none}
+#wrap_body {padding-left: 5px}
+.item_tip {position: absolute;background: white;border: 2px solid red;width: initial;top: 126px;z-index: 9;width: 150px;left: -29px;font-weight: bold;border-radius: 7px;display: none}
+.img_shop {position: relative;text-align: center;}
+.tip_arrow {background: white;position: absolute;top: -16px;border: 2px solid red;width: 30px;height: 30px;left: 37%;transform: rotate(135deg);z-index: 1}
+.tip_color {position: relative;z-index: 3}
+.tip_text {position: relative;z-index: 3;padding: 5px;background: white;border-radius: 7px}
+.tip_arrow.tranpar {background: transparent;z-index: 2;top: -12px}
+.tip_color {color: darkgreen}
+.number_color {color: darkmagenta}
+.img_shop:hover .item_tip {display: block}
+.set18,.set19,.set20,.set16,.set17,.set18,.set12,.set13,.set14,.set15,.set11,.set9,.set10,.set5,.set6,.set7,.set8 {top: 44px!important;left: 39px!important}
+#Gunny {position: relative;z-index: 9;top: 35px}
+.shop_help {background-image: url(//localhost/Gunny/shop.jpg);width: 100%;height: 310px;background-repeat: no-repeat;background-position: center;margin: 30px 0}
+.img_shop:before {-webkit-animation: fa-spin 1s infinite steps(8);animation: fa-spin 1s infinite steps(8);content: "\f110";font-family:FontAwesome;position: absolute;font-size: 70px;color: darkturquoise;float: none;width: 78px;margin-top: 5px;}
+.img_shop.active:before {opacity: 0;}
